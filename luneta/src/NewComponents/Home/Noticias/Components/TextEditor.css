@@ -1,0 +1,40 @@
+.TextEditor {
+    text-align: center;
+    width: 100%;
+}
+.TextEditor-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.Controls {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 2px 5px;
+    text-align: left;
+}
+.ButtonControls {
+    font-size: calc(8px + 2vmin);
+    margin: 0 2px;
+    min-width: 50px;
+    background-color: white;
+    cursor: pointer;padding: 2px;
+}
+
+.Text {
+    font-size: calc(5px + 2vmin);
+    width: calc(100% - 30px);
+    padding: 10px;
+}
+.CloseWindow{
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+.CloseWindow:hover{
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.Home{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContentHome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HandleHome{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.HandleHomeNoticia{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.HandleHomeButton{
+    margin: 1px;
+    min-width: 150px;
+    font-size: 20pt;
+}
+
+.TopBar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #161A31;
+    color: white;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.ContentBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.p {
+    margin: 0px;
+    padding: 0px;
+  }

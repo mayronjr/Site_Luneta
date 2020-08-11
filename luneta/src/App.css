@@ -1,0 +1,62 @@
+.App {
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #161A31;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-Logo{
+  align-self: flex-start;
+}
+
+.App-header-Other{
+  height: 120px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.App-header-dir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p {
+  margin: 0px;
+  padding: 0px;
+  cursor: default;
+  user-select: none;
+}
+
+.content{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.modal_content {
+  background-color: white;
+  position: absolute;
+}
+
+.gradient{
+  background: linear-gradient(rgba(112, 195, 184, 0.1), rgba(12, 101, 174, 0.1));
+}

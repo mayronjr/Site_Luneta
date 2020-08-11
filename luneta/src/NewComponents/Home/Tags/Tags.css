@@ -1,0 +1,18 @@
+.div-Tags{
+  width: 100%;
+  height: 100%;
+  
+  padding: 20px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.tableNoCell{
+    width:  20vh;
+}

@@ -1,0 +1,43 @@
+.button-login{
+    border-radius: 10px;
+    padding: 3px 18px;
+}
+
+.button-User{
+    border-radius: 10px;
+    padding: 3px 18px;
+    width: 200px;
+}
+
+.button-home{
+    width: calc(100% / 3);
+
+    border:  1px solid rgb(0, 0, 0);
+    padding: 4px 10px;
+
+    cursor: pointer;
+    user-select: none;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.button-home-selected{
+    background-color: #040C1E;
+    cursor: default;
+}
+.button-home:hover{
+    background-color: #111620;
+}
+.button-home-selected:hover{
+    background-color: #040C1E;
+}
+
+.button-tables{
+    width:  20vh;
+}
+
+button{
+    cursor: pointer;
+}
