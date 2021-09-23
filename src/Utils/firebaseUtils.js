@@ -4,7 +4,6 @@ import 'firebase/storage'
 
 //Insira abaixo a chave da API do firebase
 const config = {
-    
   };
 
 export const firebaseImpl = firebase.initializeApp(config);
